@@ -19,7 +19,7 @@ exports.modules = {
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles */ \"./src/components/AppTemplate/styles.ts\");\n/* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SideMenu */ \"./src/components/SideMenu/index.tsx\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);\nvar _jsxFileName = \"/home/carlos/Projetos/cursos/go_finance/go_finance_frontend/src/components/AppTemplate/index.tsx\";\n\n\n\nconst AppTemplate = ({\n  children\n}) => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_styles__WEBPACK_IMPORTED_MODULE_0__.Container, {\n  children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_SideMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 11,\n    columnNumber: 9\n  }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_styles__WEBPACK_IMPORTED_MODULE_0__.Content, {\n    children: children\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 12,\n    columnNumber: 9\n  }, undefined)]\n}, void 0, true, {\n  fileName: _jsxFileName,\n  lineNumber: 10,\n  columnNumber: 5\n}, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppTemplate);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9BcHBUZW1wbGF0ZS9pbmRleC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQzhDO0FBQ1g7QUFBQTtBQU1uQyxNQUFNSyxXQUFXLEdBQUdBLENBQUM7RUFBRUM7QUFBMkIsQ0FBQyxrQkFDL0NGLDZEQUFBLENBQUNKLDhDQUFTO0VBQUFNLFFBQUEsZ0JBQ05GLDZEQUFBLENBQUNGLGlEQUFRO0lBQUFLLFFBQUEsRUFBQUMsWUFBQTtJQUFBQyxVQUFBO0lBQUFDLFlBQUE7RUFBQSxZQUFXLENBQUMsZUFDckJOLDZEQUFBLENBQUNILDRDQUFPO0lBQUFLLFFBQUEsRUFDSEE7RUFBUTtJQUFBQyxRQUFBLEVBQUFDLFlBQUE7SUFBQUMsVUFBQTtJQUFBQyxZQUFBO0VBQUEsWUFDSixDQUFDO0FBQUE7RUFBQUgsUUFBQSxFQUFBQyxZQUFBO0VBQUFDLFVBQUE7RUFBQUMsWUFBQTtBQUFBLFlBQ0gsQ0FDZDtBQUNELGlFQUFlTCxXQUFXIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ29fZmluYW5jZV9mcm9udGVuZC8uL3NyYy9jb21wb25lbnRzL0FwcFRlbXBsYXRlL2luZGV4LnRzeD9iMzg5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJlYWN0Tm9kZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IENvbnRhaW5lciwgQ29udGVudCB9IGZyb20gJy4vc3R5bGVzJztcbmltcG9ydCBTaWRlTWVudSBmcm9tICcuLi9TaWRlTWVudSc7XG5cbmludGVyZmFjZSBBcHBUZW1wbGF0ZVByb3BzIHtcbiAgICBjaGlsZHJlbjogUmVhY3ROb2RlO1xufVxuXG5jb25zdCBBcHBUZW1wbGF0ZSA9ICh7IGNoaWxkcmVuIH06IEFwcFRlbXBsYXRlUHJvcHMpID0+IChcbiAgICA8Q29udGFpbmVyPlxuICAgICAgICA8U2lkZU1lbnU+PC9TaWRlTWVudT5cbiAgICAgICAgPENvbnRlbnQ+XG4gICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgIDwvQ29udGVudD5cbiAgICA8L0NvbnRhaW5lcj5cbilcbmV4cG9ydCBkZWZhdWx0IEFwcFRlbXBsYXRlOyJdLCJuYW1lcyI6WyJDb250YWluZXIiLCJDb250ZW50IiwiU2lkZU1lbnUiLCJqc3hERVYiLCJfanN4REVWIiwiQXBwVGVtcGxhdGUiLCJjaGlsZHJlbiIsImZpbGVOYW1lIiwiX2pzeEZpbGVOYW1lIiwibGluZU51bWJlciIsImNvbHVtbk51bWJlciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/AppTemplate/index.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles */ \"./src/components/AppTemplate/styles.ts\");\n/* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SideMenu */ \"./src/components/SideMenu/index.tsx\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"./node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar _jsxFileName = \"/home/carlos/Projetos/cursos/go_finance/go_finance_frontend/src/components/AppTemplate/index.tsx\";\n\n\n\n\n// no javascript quando usa && é como um if sem o else\nconst AppTemplate = ({\n  children\n}) => {\n  const {\n    pathname\n  } = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n  const isAuthPages = pathname === '/signin' || pathname === '/signup';\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_styles__WEBPACK_IMPORTED_MODULE_0__.Container, {\n    children: [!isAuthPages && /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_SideMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 15,\n      columnNumber: 30\n    }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_styles__WEBPACK_IMPORTED_MODULE_0__.Content, {\n      children: children\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 13\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 14,\n    columnNumber: 9\n  }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppTemplate);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9BcHBUZW1wbGF0ZS9pbmRleC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFDOEM7QUFDWDtBQUNLO0FBQUE7QUFLeEM7QUFDQSxNQUFNTSxXQUFXLEdBQUdBLENBQUM7RUFBRUM7QUFBMkIsQ0FBQyxLQUFLO0VBQ3BELE1BQU07SUFBRUM7RUFBUyxDQUFDLEdBQUdMLHNEQUFTLENBQUMsQ0FBQztFQUNoQyxNQUFNTSxXQUFXLEdBQUdELFFBQVEsS0FBSyxTQUFTLElBQUlBLFFBQVEsS0FBSyxTQUFTO0VBQ3BFLG9CQUNJSCw2REFBQSxDQUFDTCw4Q0FBUztJQUFBTyxRQUFBLEdBQ0wsQ0FBQ0UsV0FBVyxpQkFBSUosNkRBQUEsQ0FBQ0gsaURBQVE7TUFBQVEsUUFBQSxFQUFBQyxZQUFBO01BQUFDLFVBQUE7TUFBQUMsWUFBQTtJQUFBLFlBQVcsQ0FBQyxlQUN0Q1IsNkRBQUEsQ0FBQ0osNENBQU87TUFBQU0sUUFBQSxFQUNIQTtJQUFRO01BQUFHLFFBQUEsRUFBQUMsWUFBQTtNQUFBQyxVQUFBO01BQUFDLFlBQUE7SUFBQSxZQUNKLENBQUM7RUFBQTtJQUFBSCxRQUFBLEVBQUFDLFlBQUE7SUFBQUMsVUFBQTtJQUFBQyxZQUFBO0VBQUEsWUFDSCxDQUFDO0FBRXBCLENBQUM7QUFDRCxpRUFBZVAsV0FBVyIsInNvdXJjZXMiOlsid2VicGFjazovL2dvX2ZpbmFuY2VfZnJvbnRlbmQvLi9zcmMvY29tcG9uZW50cy9BcHBUZW1wbGF0ZS9pbmRleC50c3g/YjM4OSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSZWFjdE5vZGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBDb250YWluZXIsIENvbnRlbnQgfSBmcm9tICcuL3N0eWxlcyc7XG5pbXBvcnQgU2lkZU1lbnUgZnJvbSAnLi4vU2lkZU1lbnUnO1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInO1xuXG5pbnRlcmZhY2UgQXBwVGVtcGxhdGVQcm9wcyB7XG4gICAgY2hpbGRyZW46IFJlYWN0Tm9kZTtcbn1cbi8vIG5vIGphdmFzY3JpcHQgcXVhbmRvIHVzYSAmJiDDqSBjb21vIHVtIGlmIHNlbSBvIGVsc2VcbmNvbnN0IEFwcFRlbXBsYXRlID0gKHsgY2hpbGRyZW4gfTogQXBwVGVtcGxhdGVQcm9wcykgPT4ge1xuICAgIGNvbnN0IHsgcGF0aG5hbWUgfSA9IHVzZVJvdXRlcigpO1xuICAgIGNvbnN0IGlzQXV0aFBhZ2VzID0gcGF0aG5hbWUgPT09ICcvc2lnbmluJyB8fCBwYXRobmFtZSA9PT0gJy9zaWdudXAnO1xuICAgIHJldHVybiAoXG4gICAgICAgIDxDb250YWluZXI+XG4gICAgICAgICAgICB7IWlzQXV0aFBhZ2VzICYmIDxTaWRlTWVudT48L1NpZGVNZW51Pn1cbiAgICAgICAgICAgIDxDb250ZW50PlxuICAgICAgICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgICAgIDwvQ29udGVudD5cbiAgICAgICAgPC9Db250YWluZXI+XG4gICAgKVxufVxuZXhwb3J0IGRlZmF1bHQgQXBwVGVtcGxhdGU7XG4iXSwibmFtZXMiOlsiQ29udGFpbmVyIiwiQ29udGVudCIsIlNpZGVNZW51IiwidXNlUm91dGVyIiwianN4REVWIiwiX2pzeERFViIsIkFwcFRlbXBsYXRlIiwiY2hpbGRyZW4iLCJwYXRobmFtZSIsImlzQXV0aFBhZ2VzIiwiZmlsZU5hbWUiLCJfanN4RmlsZU5hbWUiLCJsaW5lTnVtYmVyIiwiY29sdW1uTnVtYmVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/AppTemplate/index.tsx\n");
 
 /***/ }),
 
@@ -193,6 +193,16 @@ module.exports = require("styled-components");
 
 /***/ }),
 
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -203,6 +213,16 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("stream");
+
+/***/ }),
+
 /***/ "util":
 /*!***********************!*\
   !*** external "util" ***!
@@ -210,6 +230,16 @@ module.exports = require("path");
 /***/ ((module) => {
 
 module.exports = require("util");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("zlib");
 
 /***/ })
 

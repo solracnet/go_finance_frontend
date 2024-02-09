@@ -20,3 +20,4 @@
 .env
 tmp
 node_modules
+.next
