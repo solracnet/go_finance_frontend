@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     * {
@@ -28,7 +28,7 @@ export default createGlobalStyle`
         }
     }
 
-    input{
+    input, select{
         background-color: ${(props) => props.theme.colors.black3};
         color: ${(props) => props.theme.colors.white};
         border: none;
@@ -43,5 +43,37 @@ export default createGlobalStyle`
             font-size: 12px;
             font-weight: 500;
         }
+
+        &:focus{
+            outline: none;
+        }
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus{
+        background-color: ${(props) => props.theme.colors.black3};
+        transition: background-color 5000s ease-in-out 0s;
+        -webkit-text-fill-color: ${(props) => props.theme.colors.white};
+        ::-webkit-input-placeholder {
+            color: #4b4747;
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+    input[type="date"]{
+        ::-webkit-calendar-picker-indicator {
+            background-image: url('/calendar.png');
+            cursor: pointer;
+        }
+    }
+    select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 150px;
+        background-image: linear-gradient()(45deg, transparent 50%, #ff7a00 50%), linear-gradient(135deg, #ff7a00 50%, transparent 50%);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+        background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+        background-repeat: no-repeat;
     }
 `

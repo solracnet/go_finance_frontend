@@ -5,6 +5,8 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 200px;
+    width: 100%;
+    max-width: 1200px;
 `
 
 export const RightSide = styled.div`
