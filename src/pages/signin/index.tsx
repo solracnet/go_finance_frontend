@@ -5,6 +5,7 @@ import logo from "../../assets/logo.png";
 import Link from 'next/link';
 import { useState } from 'react';
 import useLogin from '@/src/hooks/useLogin';
+import { toast } from 'react-toastify';
 
 const Signin = () => {
     const { login } = useLogin();
@@ -19,6 +20,7 @@ const Signin = () => {
             if (userNotFount) {
                 setErrorMessage('Usuário ou senha inválidos');
             }
+            toast.error("Usuário ou senha inválidos!");
         }
     }
     return (

@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useCallback, useContext, useEffect, useState } from 'react'
+import { ReactNode, useCallback, useEffect, useState } from 'react'
 import api from '../services/api';
 import { useRouter } from 'next/router';
 import { LoginCredentials } from '../types/auth';
@@ -10,6 +10,7 @@ type AuthProviderProps = {
 
 type AuthState = {
     token: string;
+    user_id?: number;
 }
 
 const AuthProvider = ({ children }: AuthProviderProps) => {
@@ -18,7 +19,8 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
     const [data, setData] = useState<AuthState | undefined>(() => {
         if (typeof window === 'undefined') return {} as AuthState;
         const token = localStorage.getItem("@gofinance:token");
-        if (token) {
+        const user_id = localStorage.getItem("@gofinance:user_id");
+        if (token && user_id) {
             api.defaults.headers.authorization = `Bearer ${token}`
             return { token };
         }
@@ -33,18 +35,20 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
 
     const login = useCallback(async ({ username, password }: LoginCredentials) => {
         const response = await api.post('/login', { username, password });
-        const accessToken = response.data
-        localStorage.setItem("@gofinance:token", accessToken);
-        api.defaults.headers.authorization = `Bearer ${accessToken}`;
+        const { token, user_id } = response.data
+        localStorage.setItem("@gofinance:token", token);
+        localStorage.setItem("@gofinance:user_id", user_id);
+        api.defaults.headers.authorization = `Bearer ${token}`;
         router.replace(origin);
-        if (!accessToken) {
+        if (!token) {
             setData(undefined);
         }
-        setData({ token: accessToken });
+        setData({ token, user_id });
     }, [origin, router])
 
     const logout = useCallback(() => {
         localStorage.removeItem("@gofinance:token");
+        localStorage.removeItem("@gofinance:user_id");
         delete api.defaults.headers.authorization;
         setData(undefined);
     }, [])

@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import api from '@/src/services/api';
 import useLogin from '@/src/hooks/useLogin';
+import { toast } from 'react-toastify';
 
 const Signin = () => {
     const [username, setUsername] = useState('');
@@ -68,6 +69,7 @@ const Signin = () => {
                 setUsernameErrorMessage("Nome de usuário é obrigatório");
                 setHasError(true);
             }
+            toast.error("Não foi possível cadastrar o usuário!");
         } finally {
             setIsLoading(false);
         }

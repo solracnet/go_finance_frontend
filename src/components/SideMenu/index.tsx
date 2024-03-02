@@ -12,23 +12,23 @@ import useLogin from '@/src/hooks/useLogin';
 
 const menuItems = [
     {
-        href: "/Debit",
+        href: "/debit",
         src: debit,
         alt: 'debit'
     },
     {
-        href: "/Receipt",
+        href: "/receipt",
         src: receipt,
         alt: 'receipt'
     },
     {
-        href: "/DebitCategories",
+        href: "/debitCategories",
         src: debitCategories,
         alt: 'debitCategories'
     },
     {
-        href: "/ReceiptCategories",
-        src: debitCategories,
+        href: "/receiptCategories",
+        src: receiptCategories,
         alt: 'debitCategories'
     },
 ]
